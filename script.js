@@ -27,6 +27,7 @@ async function searchImages(){
 
     const results = data.results;
 
+    // Thease line of code display result in UI
     results.map((result) => {
         const image = document.createElement("img");
         image.src = result.urls.small;
